@@ -1,9 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", system-ui, sans-serif;
-  --color-brand: #E8730C;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --font-inter: "Inter", sans-serif;
@@ -30,7 +27,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -42,7 +38,6 @@ html {
   border-radius: 3px;
 }
 
-/* Select dropdown styling */
 select option {
   background-color: #111111;
   color: #ffffff;
