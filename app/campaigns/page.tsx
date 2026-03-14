@@ -384,24 +384,6 @@ export default function CampaignsPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-[#E8730C] py-12 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-black text-white mb-4">
-            Ready to Launch These Campaigns?
-          </h2>
-          <p className="text-white/80 mb-8">
-            All ad copy is ready to deploy. Contact us to discuss creative production, targeting, and budget.
-          </p>
-          <a
-            href="tel:7024744099"
-            className="inline-block bg-white text-[#E8730C] font-black text-lg px-10 py-4 rounded-lg shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
-          >
-            (702) 474-4099
-          </a>
-        </div>
-      </section>
-
       {/* FOOTER */}
       <footer className="bg-[#1a1a1a] py-12 px-4">
         <div className="max-w-5xl mx-auto">
