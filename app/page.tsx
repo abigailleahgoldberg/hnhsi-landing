@@ -140,7 +140,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-stretch">
             {/* The old way */}
             <div className="bg-black/60 border border-red-900/40 rounded-2xl p-8">
               <div className="text-red-400 font-black text-sm tracking-widest uppercase mb-6 flex items-center gap-2">
@@ -155,11 +155,11 @@ export default function Home() {
                   "Locksmith",
                 ].map((c, i) => (
                   <li key={i} className="flex items-center gap-3 text-gray-400">
-                    <span className="w-6 h-6 rounded-full bg-red-900/40 border border-red-700/50 flex items-center justify-center text-xs text-red-400 font-bold flex-shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-red-900/40 border border-red-700/50 flex items-center justify-center text-xs text-red-400 font-bold shrink-0">
                       {i + 1}
                     </span>
-                    <span>{c}</span>
-                    <span className="ml-auto text-red-500/60 text-xs">
+                    <span className="flex-1">{c}</span>
+                    <span className="text-red-500/60 text-xs whitespace-nowrap">
                       +1 contact
                     </span>
                   </li>
@@ -173,11 +173,6 @@ export default function Home() {
                   Every project is a coordination nightmare
                 </div>
               </div>
-            </div>
-
-            {/* Arrow */}
-            <div className="hidden md:flex items-center justify-center absolute left-1/2 -translate-x-1/2">
-              <span className="text-[#E8730C] text-4xl font-black">→</span>
             </div>
 
             {/* The HNHSI way */}
